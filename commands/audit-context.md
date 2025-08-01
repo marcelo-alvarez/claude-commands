@@ -25,8 +25,8 @@ Never modify tasks.md - it's the reference checklist for the current tasks
 ## Output
 
 The command provides a comprehensive context audit summary including:
-- The result of (2) above
-- A summary of changes to `context.md` from (3) above
-- A summary of changes to `bugs.md` from (4) above
+- The result of (1) above
+- A summary of changes to `context.md` from (2) above
+- A summary of changes to `bugs.md` from (3) above
 - Next actions and priorities
 
