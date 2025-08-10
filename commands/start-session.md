@@ -13,12 +13,13 @@ This command initializes a Claude Code session by loading all necessary context 
 **IMPORTANT: This command ONLY reads files and reports status. DO NOT write code, create files, or implement features.**
 
 1. Run /mcp__serena__initial_instructions i.e. "read Serena's initial instructions"
-2. **Load Project Guidelines**: Read `CLAUDE.md` for project-specific protocols (if not present create a minimal one)
-3. **Load Current Project Tasks**: Read `tasks.md` for project-specific tasks currently being worked on (if not present create a minimal one)
-4. **Load Session Context**: Read `context.md` for previous session state (if not present create a minimal one)
-5. **Check Project Status**: Review git status and current branch (DO NOT make commits or changes)
-6. **Synthesize Context**: Report a structured summary of current state and next actions
-7. **Process prompt**: If provided, respond to the text in the prompt but do not write to disk or execute commands other than file reading
+2. Read workflow-wisdom.md if present, otherwise create an empty template indicating these are memories for proper workflow, based on previous mistakes. It should be concise and not weigh down the context too much.
+3. **Load Project Guidelines**: Read `CLAUDE.md` for project-specific protocols (if not present create a minimal one)
+4. **Load Current Project Tasks**: Read `tasks.md` for project-specific tasks currently being worked on (if not present create a minimal one)
+5. **Load Session Context**: Read `context.md` for previous session state (if not present create a minimal one)
+6. **Check Project Status**: Review git status and current branch (DO NOT make commits or changes)
+7. **Synthesize Context**: Report a structured summary of current state and next actions
+8. **Process prompt**: If provided, respond to the text in the prompt but do not write to disk or execute commands other than file reading
 
 **CONSTRAINTS:**
 - DO NOT implement any features from tasks.md
