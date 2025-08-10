@@ -5,7 +5,7 @@ This command initializes a Claude Code session by loading all necessary context 
 ## Usage
 
 ```
-/start-session
+/start-session [prompt]
 ```
 
 ## Implementation Steps
@@ -18,6 +18,7 @@ This command initializes a Claude Code session by loading all necessary context 
 4. **Load Session Context**: Read `context.md` for previous session state (if not present create a minimal one)
 5. **Check Project Status**: Review git status and current branch (DO NOT make commits or changes)
 6. **Synthesize Context**: Report a structured summary of current state and next actions
+7. **Process prompt**: If provided, respond to the text in the prompt but do not write to disk or execute commands other than file reading
 
 **CONSTRAINTS:**
 - DO NOT implement any features from tasks.md
@@ -34,3 +35,4 @@ The command provides a comprehensive session summary including:
 - Test status and baseline protection requirements
 - Next actions and priorities
 - Key constraints and protocols
+If a prompt is provided, it also responds to the prompt, in read-only mode as specified above.

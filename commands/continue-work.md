@@ -10,9 +10,8 @@ This command continues the ongoing work described in the `context.md` context fi
 
 ## Implementation
 
-1. **Address Bug Fixes**: Address any problems in `bugs.md`
-2. **Execute Priority Work**: Proceed with top priorities / next steps as determined from your review of `context.md`
-3. **Execute Task Work**: If there is significant context left, tackle the first incomplete tasks in `tasks.md`. Be sure the amount of work started is not so much that the context will have had to be auto-compacted before completion.
+1. **Execute Priority Work**: Proceed with top priorities / next steps as determined from your review of `context.md`
+2. **Address Bug Fixes**: Address any problems in `bugs.md`
 
 Never modify tasks.md - it's the reference checklist for the current tasks.
 Never modify context.md - this is outside of the scope of this command.
